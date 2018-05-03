@@ -1,0 +1,6 @@
+// delete
+unset()
+
+strtoupper()
+strtolower()
+substr()
