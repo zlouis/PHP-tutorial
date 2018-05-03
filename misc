@@ -1,0 +1,17 @@
+//switch cases
+
+$fruits = "grape fruit";
+
+switch ($fruits) {
+  case "oranges": 
+    echo "you've bought oranges";
+    break;
+  case "grapes":
+    echo "you've bought grapes";
+    break;
+   case "grape fruit":
+    echo "You've bought grape fruit";
+    break;
+  default: 
+    echo "you didn't buy anything";
+    }
