@@ -32,3 +32,23 @@ do {
 }
   while($flipCoin); 
       echo "<p> The coin was flipped {$flipCounter} times to get a heads</p>";
+
+
+//number of times to flip a coin until 3 heads in a row
+$flipCounter = 0;
+$headsCounter = 0;
+
+while ($headsCounter < 3) {
+  $flipCoin = rand(0,1);
+  $flipCounter++;
+  
+  if($flipCoin) {
+      echo "<p>tails</p>";
+      $headsCounter++;
+    } else {
+      echo "<p>heads</p>";
+  
+      $headsCounter = 0;
+    }
+}
+echo "<p>The coin was flipped {$flipCounter} to get 3 heads in a row</p>";
