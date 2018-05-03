@@ -1,0 +1,9 @@
+// Even print even, odd print out odd
+for ($i = 0; $i<=100; $i++) {
+	if (($i % 2) ==  0) {
+   echo "<p>{$i} is even</p>";
+	}
+  else {
+  echo "{$i} is not even";
+}
+}
