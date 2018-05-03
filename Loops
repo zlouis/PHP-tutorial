@@ -16,3 +16,19 @@ $fruits[3] = "blueberries";
 foreach($fruits as $snacks) {
   echo "<p>$snacks</p>";
 }
+
+//flip a coin until heads
+$flipCounter = 0;
+
+do { 
+  $flipCoin = rand(0,1);
+  $flipCounter++;
+  
+  if($flipCoin) {
+      echo "<p>tails</p>";
+    } else {
+      echo "<p>heads</p>";
+    }
+}
+  while($flipCoin); 
+      echo "<p> The coin was flipped {$flipCounter} times to get a heads</p>";
