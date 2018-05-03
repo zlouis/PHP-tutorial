@@ -7,3 +7,12 @@ for ($i = 0; $i<=100; $i++) {
   echo "{$i} is not even";
 }
 }
+
+
+//foreach, replaces an item in array and then loops loops through array.
+$fruits = array("orange", "grapes", "Strawberries", "Banana", "Apples");
+
+$fruits[3] = "blueberries";
+foreach($fruits as $snacks) {
+  echo "<p>$snacks</p>";
+}
