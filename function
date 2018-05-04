@@ -4,3 +4,8 @@ unset()
 strtoupper()
 strtolower()
 substr()
+  substr("eeek", 0,3)
+sort()
+rsort()
+join()
+  join(", ", $something);
