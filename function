@@ -10,8 +10,11 @@ rsort()
 join()
   join(", ", $something);
   
-  
-  //created empty array
+
+
+// Select a random item from an array
+
+  //create an array
   $population = array();
     
     //push items into array
