@@ -9,3 +9,20 @@ sort()
 rsort()
 join()
   join(", ", $something);
+  
+  
+  //created empty array
+  $population = array();
+    
+    //push items into array
+    array_push($population, "american", "swiss", "UK");
+    
+    //select a random population
+    
+    //number in an array
+    $max = count($population)-1;
+    
+    //randomly selected a population group from array
+    echo $randomSelection = $population[rand(0,$max)];
+    
+    
