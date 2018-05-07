@@ -38,3 +38,25 @@ join()
   }
   
   greetBot("john", 12);
+  
+  
+//OOP creating class
+
+    Class Animal {
+    public $isAnimal = true;
+    public $name;
+    public $age;
+    
+    public function __construct($name, $age){
+    $this->name=$name;
+    $this->age=$age;
+    };
+    
+    public function makeNoise($name) {
+    return "I'm " . this.$name . " so guess my noise!";
+    };
+    }
+    
+    //instances of animal
+    $animalOne = new Animal ("elephant");
+    $animalOne-> this.makeNoise();
