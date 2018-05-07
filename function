@@ -29,3 +29,12 @@ join()
     echo $randomSelection = $population[rand(0,$max)];
     
     
+
+//periods . 
+
+  function greetBot($name, $age)  {
+  echo "Greetings " . $name . "you're age is: " . $age " .";
+  
+  }
+  
+  greetBot("john", 12);
