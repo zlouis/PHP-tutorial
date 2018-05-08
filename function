@@ -84,7 +84,7 @@ join()
 
 //Using class property without creating an instance through 'static'
 
-Class king {
+Class King {
 public static function proclaim() {
 return "I am the king of England!";
 }
