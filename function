@@ -80,3 +80,14 @@ join()
   //inherit Vehicle's hasWheels
   $newBicycle = new Bicycle()
   echo $newBicycle->this.$hasWheels
+
+
+//Using class property without creating an instance through 'static'
+
+Class king {
+public static function proclaim() {
+return "I am the king of England!";
+}
+}
+
+King::proclaim();
