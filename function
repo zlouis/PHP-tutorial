@@ -60,3 +60,23 @@ join()
     //instances of animal
     $animalOne = new Animal ("elephant");
     $animalOne-> this.makeNoise();
+
+
+//extend a class
+
+  Class Vehicle {
+    public $hasWheels = true;
+    public function honk (){
+    return "HONK HONK!!!";
+    }
+  }
+  
+  //this overrides the original public function "honk"
+  Class Bicycle extends Vehicle {
+  public function honk () {
+  return "BEEP BEEP";
+  }
+  }
+  //inherit Vehicle's hasWheels
+  $newBicycle = new Bicycle()
+  echo $newBicycle->this.$hasWheels
