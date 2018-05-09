@@ -52,3 +52,17 @@ while ($headsCounter < 3) {
     }
 }
 echo "<p>The coin was flipped {$flipCounter} to get 3 heads in a row</p>";
+
+//key and value pair
+
+$chestBox = (
+"bow"=>"basic",
+"shortbow"="unidentified",
+"axe" = "rare"
+);
+
+foreach($chestBox as $weapons=>$statusWeapon) {
+echo $statusWeapon . " " . $weapons . "<br />";
+}
+
+
