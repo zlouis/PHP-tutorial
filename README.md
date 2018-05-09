@@ -1,5 +1,4 @@
 # PHP-tutorial
-RedCap purposes
-
+Basic syntax
 
 http://www.writephponline.com/
