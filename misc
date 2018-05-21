@@ -15,3 +15,8 @@ switch ($fruits) {
   default: 
     echo "you didn't buy anything";
     }
+
+//to instantiate variable use $
+$orange = "Big juicey orange from a Florida tree."
+
+echo $orange;
