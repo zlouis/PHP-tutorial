@@ -17,6 +17,6 @@ switch ($fruits) {
     }
 
 //to instantiate variable use $
-$orange = "Big juicey orange from a Florida tree."
+$orange = "Big juicey orange from a Florida tree.";
 
 echo $orange;
