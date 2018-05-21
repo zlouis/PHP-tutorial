@@ -91,3 +91,17 @@ return "I am the king of England!";
 }
 
 King::proclaim();
+
+Class Queen {
+$status= "Wealthy";
+$human= true;
+
+public statis function proclaim() {
+
+return "I am the Queen of England. Queen Elizabeth I, bow!";
+}
+}
+Queen::proclaim();
+echo Queen->this.$status;
+
+
