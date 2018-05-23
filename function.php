@@ -27,8 +27,12 @@ join()
     
     //randomly selected a population group from array
     echo $randomSelection = $population[rand(0,$max)];
-    
-    
+ 
+
+//excercise
+$chest = =array();
+
+array_push=($chest, "1000 Gold Coins", "sword");
 
 //periods . 
 
