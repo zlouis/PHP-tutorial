@@ -7,7 +7,9 @@ for ($i = 0; $i<=100; $i++) {
   echo "{$i} is not even";
 }
 }
-
+for ($i = 0; $i<=10; $i++){
+echo "<p>{$i} earned points</p>";
+}
 
 //foreach, replaces an item in array and then loops loops through array.
 $fruits = array("orange", "grapes", "Strawberries", "Banana", "Apples");
